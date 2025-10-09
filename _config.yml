@@ -1,2 +1,11 @@
-# Disable Jekyll for plain HTML site
+# Disable Jekyll so GitHub Pages serves plain HTML files
 theme: null
+exclude:
+  - ".github"
+  - "README.md"
+  - "CNAME"
+
+# Optional metadata (for your info only)
+title: Pixsora
+description: Simple online image editor built with HTML, CSS, and JS
+
